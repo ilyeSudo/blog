@@ -4,9 +4,9 @@ layout: post
 title:  "Data Quality"
 date:   2017-10-12
 comments: true
-category: Data
-tags:
+category:
 - DB Design
+- Data
 ---
 
 Data is deemed of high quality if it correctly represents the real-world construct to which it refers. [" wiki "](https://en.wikipedia.org/wiki/Data_quality "Wikipedia")
@@ -30,13 +30,15 @@ Common error types : there are in fact two types of errors, schema and semantic 
 -	Constraints conflicts.
 - etc
 
-Now that we have talked about the common problems that may cause data heterogeneity, let's jump now and talk about the factors and the dimensions that allow us to judge, and let say whether out data is clean enough or not, in other words, is our data in an appropriate quality to work on and to make sensible business decisions or not?
+Now that we have talked about the common problems that may cause data heterogeneity, let's jump now and talk about the factors and the dimensions that allow us to judge, and let say whether out data is clean enough or not, in other words, is our data in an appropriate quality to work on and to make sensible business decisions or not? 🤔❓
 
 ## Quality factors
 1. Data Consistency: Data consistency refers to whether the types of data align with the expected versions of the data that should be coming in.
 2. Data Accuracy: Data accuracy refers to whether the collected data is correct, and accurately represents what it should.
 3. Data Validity: Validity of data is determined by whether the data measure that which it is intended to measure.
 4. Data Timeliness: Data timeliness refers to the expectation of when data should be received in order for the information to be used effectively. The expectation and reality often do not align, leading to ineffective use of the data and a lack of data-driven decisions.
+
+[<img src="/assets/img/blog/2017-10-12-Data-Quality/chart.gif" style="height: 70%;width: 70%;"/>](/assets/img/blog/2017-10-12-Data-Quality/chart.gif)
 
 ## Real World Example
 

@@ -4,21 +4,22 @@ layout: post
 title:  "ChatBot in a Microservices Architecture"
 date:   2017-10-28
 comments: true
-category: Mobile
-tags:
+category:
 - Mobile
 - NodeJS
 - APIs
-- Software-Architect
+- Software-Architecture
 ---
 
-A ChatBot designed to help new <a href="http://www.uvsq.fr/master-1-informatique-351265.kjsp" target="_blank">UVSQ's CS</a> students to explore and to know more about their course, designed in two versions : API.ai & ChatFuel and based in Microservices Architecture
+A ChatBot designed to help new <a href="http://www.uvsq.fr/master-1-informatique-351265.kjsp" target="_blank">UVSQ's CS</a> students 🎓🎓 to explore and to know more about their course, designed in two versions : API.ai & ChatFuel and based in Microservices Architecture
 
 
 
 ## Demo
 [<img src="/assets/img/blog/2017-10-28-Messanger-Chatbot/bloggif_59353fe79e3c6.gif" style="height: 30%;width: 30%;"/>](/assets/img/blog/2017-10-28-Messanger-Chatbot/bloggif_59353fe79e3c6.gif)
 [<img src="/assets/img/blog/2017-10-28-Messanger-Chatbot/ezgif.com-video-to-gif2.gif" style="height: 30%;width: 30%;"/>](/assets/img/blog/2017-10-28-Messanger-Chatbot/ezgif.com-video-to-gif2.gif)
+
+☕ Source code in [Github!](https://github.com/ilyeSudo/ChatBot_nodeJS_TER_Projet) ☕
 
 ## prerequisite
 You need to download and install : [npm & nodejs](https://nodejs.org/en/download/)  -  [ngrok](https://ngrok.com/download)
@@ -135,4 +136,4 @@ At the end, let's run the microservices...
 - Create your feature branch: git checkout -b my-new-feature.
 - Commit your changes: git commit -am 'Add some feature'.
 - Push to the branch: git push origin my-new-feature.
-- Submit a pull request :D
+- Submit a pull request 😎
