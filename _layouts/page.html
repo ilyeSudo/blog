@@ -2,22 +2,23 @@
 <html>
 <head>
 {% include head.html %}
+{% seo %}
 </head>
 <body class="post-template page" itemscope itemtype="http://schema.org/WebPage">
 
 <main id="notepad-page-container" class="notepad-page-container" role="main">
-    
-    
+
+
         <header class="notepad-page-header">
             <div class="notepad-page-menu-header">
-                
+
                     <a class="notepad-blog-logo" href="{{ site.url }}">
                         <img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo">
                     </a>
-                
-                
-                
-                <div class="notepad-blog-menu">      
+
+
+
+                <div class="notepad-blog-menu">
     <div class="notepad-mobile-menu show-for-small">
         <a href="#"><i class="fa fa-bars"></i></a>
     </div>
@@ -31,7 +32,7 @@
                 {% else %}
                     <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
                 {% endif %} </li>
-{% endfor %}            
+{% endfor %}
            <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
     </ul>
 </div>
@@ -50,6 +51,6 @@
     {% include footer.html %}
 </main>
 
-{% include scripts.html %}  
+{% include scripts.html %}
 </body>
 </html>
