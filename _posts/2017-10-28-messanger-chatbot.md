@@ -11,7 +11,7 @@ category:
 - Software-Architecture
 ---
 
-A ChatBot designed to help new <a href="http://www.uvsq.fr/master-1-informatique-351265.kjsp" target="_blank">UVSQ's CS</a> students 🎓🎓 to explore and to know more about their course, designed in two versions : API.ai & ChatFuel and based in Microservices Architecture
+A ChatBot designed to help new <a href="http://www.uvsq.fr/master-1-informatique-351265.kjsp" target="_blank">UVSQ's CS</a> students to explore and to know more about their course, designed in two versions : API.ai & ChatFuel and based in Microservices Architecture
 
 
 
