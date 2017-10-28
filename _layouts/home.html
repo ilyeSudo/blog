@@ -7,9 +7,9 @@
 <header class="notepad-site-head">
     <div class="notepad-site-head-menu">
         <a class="notepad-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" /></a>
-        
-        
-        <div class="notepad-blog-menu">      
+
+
+        <div class="notepad-blog-menu">
     <div class="notepad-mobile-menu show-for-small">
         <a href="#"><i class="fa fa-bars"></i></a>
     </div>
@@ -23,7 +23,7 @@
             {% else %}
             <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
             {% endif %} </li>
-{% endfor %}            
+{% endfor %}
            <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
     </ul>
 </div>
@@ -36,6 +36,9 @@
                 {{ site.title }}
             </span>
         </h1>
+
+{% include social.html %}
+
         <h2 class="notepad-blog-description">{{ site.description }}</h2>
     </div>
 </header>
@@ -74,6 +77,6 @@
 </main>
     {% include footer.html %}
 
-{% include scripts.html %}  
+{% include scripts.html %}
 </body>
 </html>

@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /about/index.html
-title: Amey Jadiye
-tags: [Amey, Jadiye]
+title: Ilyes Houdjedje
+tags: [Ilyes, Author]
 chart: true
 ---
 
@@ -21,7 +21,7 @@ chart: true
     {% endif %}
 {% endfor %}
 
-I'm **Amey Jadiye**. I cook delicious code cuisines for fun. I'm a Born engineer,80% left brained, Tech savvy, programmer, computer lover, automobiles fan, like to play any kind of machine!, curious towards python, biology, C, physics, java, psychology, MPP, bigdata, low-latency stuff,parallel programming, concurrency, RPi, Arduino ... many more ...
+Hey, i'm **Ilyes**. and this is my story...
+I started working with computer since I was 7, hence I fell in love so early. I started my coding journey in college at 19, it was a little bit weird and hard at first, but working on small side projects and homework gave me that self-confidence to build software and to get my hands dirty. After moving to Europe, I got more chance to get in touch with the industry and to sharpen my skill set. Thus, I pursued my journey in Data Engineering to take it to the next level. I’m not the smartest and I'm not _maybe_ the best **BUT**, I'm working the sh** out of me to get whatever I want and remember…it's all about DISCIPLINE, CONSISTENCY, and HARD WORK.
 
 This is my personal blog and currently has {{ site.posts | size }} posts in {{ site.categories | size }} categories which combinedly have {{ total_words }} words, which will take an average reader ({{ site.wpm }} WPM) approximately <span class="time">{{ total_readtime }}</span> minutes to read. {% if featuredcount != 0 %}There are <a href="{{ site.url }}/featured">{{ featuredcount }} featured posts</a>, you should definitely check those out.{% endif %} The most recent post is {% for post in site.posts limit:1 %}{% if post.description %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}">"{{ post.title }}"</a>{% else %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}" title="Read more about {{ post.title }}">"{{ post.title }}"</a>{% endif %}{% endfor %} which was published on {% for post in site.posts limit:1 %}{% assign modifiedtime = post.modified | date: "%Y%m%d" %}{% assign posttime = post.date | date: "%Y%m%d" %}<time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time>{% endif %}{% endif %}{% endfor %}. The last commit was on {{ site.time | date: "%A, %d %b %Y" }} at {{ site.time | date: "%I:%M %p" }} [UTC](http://en.wikipedia.org/wiki/Coordinated_Universal_Time "Temps Universel Coordonné").
-
