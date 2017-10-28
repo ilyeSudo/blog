@@ -6,6 +6,9 @@ tags: [Ilyes, Author]
 chart: true
 ---
 
+<!-- [<img src="/images/my-avatar.jpeg" class="notepad-post-author-avatar" alt="ilyes's photo" style="height: 20%;width: 20%;"/>](/images/my-avatar.jpeg) -->
+
+
 {% assign total_words = 0 %}
 {% assign total_readtime = 0 %}
 {% assign featuredcount = 0 %}
