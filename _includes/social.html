@@ -1,3 +1,11 @@
+<script type="text/javascript">
+function message_alert(node) {
+    return alert("Hey,\nMailto doesn't work properly in some web browsers like Chrome.\nhoudjedje.ilyes@gmail.com ");
+}
+</script>
+
+
+
 <div class="social-icons">
 
     {% if site.owner.twitter %}
@@ -46,7 +54,7 @@
             <i class="fa fa-file-text fa-stack-1x"></i>
         </span>
     </a>
-    <a href="mailto:houdjedje.ilyes@gmail.com?Subject=Hello" target="_top">
+    <a href="mailto:houdjedje.ilyes@gmail.com?Subject=Hello" target="_top" onclick="return message_alert(this);">
         <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
             <i class="fa fa-envelope fa-stack-1x"></i>
