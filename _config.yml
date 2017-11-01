@@ -1,9 +1,14 @@
 title:            Ilyes Houdjedje
-description:      "Talk is cheap..show me the code!"
 logo:             logo.png
 disqus_shortname: ilyeshoudjedjeml
 share:            true
 dropcap:	   true
+quotes:
+  - "Let's do it!..Together!"
+  - "Challenge me if you can!"
+  - "Don't talk..show me code instead!"
+
+
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''

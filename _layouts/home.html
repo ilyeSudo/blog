@@ -39,8 +39,11 @@
         </h1>
 
 {% include social.html %}
-
-        <h2 class="notepad-blog-description">{{ site.description }}</h2>
+        {% assign min = 0 %}
+        {% assign max = 2 %}
+        {% assign diff = max | minus: min %}
+        {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+        <h2 class="notepad-blog-description">{{ site.quotes[randomNumber] }}</h2>
     </div>
 </header>
 <main class="notepad-content" role="main">
