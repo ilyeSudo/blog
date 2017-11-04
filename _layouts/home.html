@@ -43,7 +43,9 @@
         {% assign max = 2 %}
         {% assign diff = max | minus: min %}
         {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+        <h3 class="notepad-blog-description-custom">{{ site.sub_quote }}</h3>
         <h2 class="notepad-blog-description">{{ site.quotes[randomNumber] }}</h2>
+
     </div>
 </header>
 <main class="notepad-content" role="main">

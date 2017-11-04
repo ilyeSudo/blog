@@ -5,7 +5,6 @@ title:  "Data Quality"
 date:   2017-10-12
 comments: true
 category:
-- DB Design
 - Data
 ---
 

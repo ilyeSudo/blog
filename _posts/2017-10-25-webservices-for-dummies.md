@@ -1,13 +1,11 @@
 ---
 author: Ilyes
 layout: post
-title:  "Webservices, Hands-On!"
+title:  "Webservices For Dummies, Hands-On!"
 date:   2017-10-25
 comments: true
 category:
 - Web
-- Webservice
-- SOAP
 - Software-Architecture
 ---
 
@@ -99,7 +97,13 @@ The condition that must be verified by this service is as follows: an applicant 
 The information carried by the exit message of the relevant operation of this service includes the applicant's Social Security Number (SSN) and the status of the response which can be either "Approved" or "Denied". This information is described by the element XML AppraisalStatus XML schema appended.
 
 ## Part 1. Code <>
+PS: You can find the code on Github [here](https://github.com/ilyeSudo/webservices_blog_post)
+
 For the implementation, we'll work with **Java J2EE** since it well supports working with webservices. Besides, the Java version used in this tutorial is **"1.8.0_144"** with **Eclipse Java EE IDE** for Web Developers **Kepler** Service Release 2.
+
+In the other hand, the Eclipse plugin used for deploying the webservices is called [Axis2](https://axis.apache.org/axis2/java/core/download.html) all along with the [Tomcat](https://tomcat.apache.org/whichversion.html) server.
+
+You can follow this tutorial [here](http://www.objis.com/formation-java/Tutoriel-Web-services-avec-Axis-2.html) of how to setup the workspace.
 
 First, we'll create a brand new project of cours, and then we start with creating the model classes **AddressType**, **BorrowerInformation**, and **CreditCheckStatus** as described in the WSDL schema above and group them in a package we call _models_.
 {% highlight java %}
@@ -147,6 +151,9 @@ The condition that must be verified by this service is the following: If the amo
 The business information carried by the exit message of the relevant operation of this service includes the applicant's Social Security Number (SSN) and the status of the response. Which can be either "Approved" or "Denied". This information is described by the element XML AppraisalStatus XML schema appended.
 
 ## Part 2. Code <>
+
+PS: You can find the code on Github [here](https://github.com/ilyeSudo/webservices_blog_post)
+
 For the second part, we’ll create the model classes just as we did previously : LoanDetails and AppraisalStatus and group them in a package we name _models_.
 {% highlight java %}
 public class LoanDetails {
@@ -216,6 +223,9 @@ Along with an exit message like:
 "Mr. firstname lastname, your loan demand has been accepted successfully"
 ```
 ## Part 3. Code <>
+
+PS: You can find the code on Github [here](https://github.com/ilyeSudo/webservices_blog_post)
+
 Since we will have a class that interacts with the past two WSs, then the third webservice will be a **Client Webservice**.
 
 {% highlight java %}

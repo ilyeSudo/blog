@@ -6,8 +6,6 @@ date:   2017-10-28
 comments: true
 category:
 - Mobile
-- NodeJS
-- APIs
 - Software-Architecture
 ---
 

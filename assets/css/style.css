@@ -162,7 +162,7 @@ main, .notepad-share-icons, .notepad-disqus {
   text-align: center;
   background-size: cover;
   background-color: black;
-  background-image: url("/images/UBB5kG4.jpg");}
+  background-image: url("/images/UBB5kG4.png");}
   .notepad-site-head .notepad-site-head-content.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
   .notepad-site-head .notepad-site-head-content .notepad-site-head-title-bg {
@@ -616,7 +616,7 @@ figcaption {
 }
 /* =====================================
  * :: Select Text to Share CSS
- * 
+ *
  * @ Author: Hadrien Boyer
  * @ Website: http://hadrien-boyer.fr
  * @ v.0.1 - Last update : 2014/06/29
@@ -684,7 +684,7 @@ figcaption {
   top:0;
   left:0;
 }
-.tooltipContainer a { 
+.tooltipContainer a {
   width: 100%;
   background:transparent url(/images/sprites.png) 0px 0px no-repeat;
   padding:0;
@@ -1069,3 +1069,6 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
+.notepad-blog-description-custom{
+  color: white;
+}
