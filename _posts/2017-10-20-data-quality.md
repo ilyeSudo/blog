@@ -2,7 +2,7 @@
 author: Ilyes
 layout: post
 title:  "Data Quality"
-date:   2017-10-12
+date:   2017-10-20
 comments: true
 category:
 - Data
@@ -55,11 +55,11 @@ And for this, we aim to calculate the total number of passengers in Transilien t
 
 Here's a simple from the datasets :
 
-[<img src="/assets/img/blog/2017-10-12-Data-Quality/blog_post_1_pic3.png" style="height: 50%;width: 50%;"/>](/assets/img/blog/2017-10-12-Data-Quality/blog_post_1_pic3.png "Figure1. Communes of the Ile-de-France Region")
+[<img src="/assets/img/blog/2017-10-20-Data-Quality/image3.jpg" style="height: 50%;width: 50%;"/>](/assets/img/blog/2017-10-20-Data-Quality/image3.jpg "Figure1. Communes of the Ile-de-France Region")
 
-[<img src="/assets/img/blog/2017-10-12-Data-Quality/blog_post_1_pic1.png" style="height: 80%;width: 80%;"/>](/assets/img/blog/2017-10-12-Data-Quality/blog_post_1_pic1.png "Figure2. The counting of upbound passengers in Transilien trains in 2016")
+[<img src="/assets/img/blog/2017-10-20-Data-Quality/image1.jpg" style="height: 80%;width: 80%;"/>](/assets/img/blog/2017-10-20-Data-Quality/image1.jpg "Figure2. The counting of upbound passengers in Transilien trains in 2016")
 
-[<img src="/assets/img/blog/2017-10-12-Data-Quality/blog_post_1_pic2.png" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-10-12-Data-Quality/blog_post_1_pic2.png "Figure3. Rail stations of all types, whether or not operated")
+[<img src="/assets/img/blog/2017-10-20-Data-Quality/image2.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-10-20-Data-Quality/image2.jpg "Figure3. Rail stations of all types, whether or not operated")
 
 ## Identifying problems
 For a very simple case, say that we have this dataset in one data form (Relational Tables) and we want to join them in this way (*not using the right syntax*)

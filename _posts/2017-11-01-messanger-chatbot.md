@@ -2,7 +2,7 @@
 author: Ilyes
 layout: post
 title:  "ChatBot In As Microservices Architecture"
-date:   2017-10-28
+date:   2017-11-01
 comments: true
 category:
 - Mobile
@@ -14,8 +14,8 @@ A ChatBot designed to help new <a href="http://www.uvsq.fr/master-1-informatique
 
 
 ## Demo
-[<img src="/assets/img/blog/2017-10-28-Messanger-Chatbot/bloggif_59353fe79e3c6.gif" style="height: 30%;width: 30%;"/>](/assets/img/blog/2017-10-28-Messanger-Chatbot/bloggif_59353fe79e3c6.gif)
-[<img src="/assets/img/blog/2017-10-28-Messanger-Chatbot/ezgif.com-video-to-gif2.gif" style="height: 30%;width: 30%;"/>](/assets/img/blog/2017-10-28-Messanger-Chatbot/ezgif.com-video-to-gif2.gif)
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/bloggif_59353fe79e3c6.gif" style="height: 30%;width: 30%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/bloggif_59353fe79e3c6.gif)
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/ezgif.com-video-to-gif2.gif" style="height: 30%;width: 30%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/ezgif.com-video-to-gif2.gif)
 
 ☕ Source code in [Github!](https://github.com/ilyeSudo/ChatBot_nodeJS_TER_Projet) ☕
 
@@ -33,36 +33,36 @@ After downloading and installing it, run it with a port number, let’s use 5000
 
 When you start ngrok, it will display a public URL of your tunnel in the terminal. We will need the URL later when setting up the Facebook app. (In the screenshot, the URL is https://47ba4dd4.ngrok.io)
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/ngrok.png" width="700">
+<img src="http://www.girliemac.com/assets/images/articles/2017/01/ngrok.jpg" width="700">
 
 #### Setting Up a Facebook App
 
 Step1: You need a Facebook Page to set up your chat bot. Create one from facebook.com/pages/create. Choose a category, and select a sub category from the dropdown and fill out the required filed. Then click Get Started.
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-a-page.png" width="700">
+<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-a-page.jpg" width="700">
 
 Then create an app at developers.facebook.com/quickstarts.
 Give it a name and click the button, then fill out the required info.
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app.png" width="700">
+<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app.jpg" width="700">
 
 Once your app is created, follow the steps to configure or skip it to your Dashboard.
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/FB-dashboard.png" width="700">
+<img src="http://www.girliemac.com/assets/images/articles/2017/01/FB-dashboard.jpg" width="700">
 
 Click Add Product from the left menu, then choose Messenger. Click Get Started.
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app-add-product.png" width="700">
+<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app-add-product.jpg" width="700">
 
 At the Token Generation, (1) choose the page you just created from the dropdown menu, and it will generate a token (2) that you will need to include in the code later (IMPORTANT: save the token in somewhere, you'll need it later).
 
 Then, at the Webhooks, (3) click the Setup Webhooks button:
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app-messenger.png" width="700">
+<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app-messenger.jpg" width="700">
 
 In the dialog, fill out the (1) Callback URL with your ngrok URL, (2) the random string for validation, then (3) check messages.
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app-messenger-webhook.png" width="700">
+<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app-messenger-webhook.jpg" width="700">
 
 Click the Verify and Save. If you get a red icon with x at the Callback URL, it means the URL is not validated- so re-run ngrok and reset the webhook url. Otherwise, you are ready to go on.
 
@@ -73,15 +73,15 @@ The project has been built in two versions : API.ai version & ChatFuel version.
 API.ai allows developers to integrate your app with the AI system with speech-to-text and natural language processing.
 Let’s get started by [sigining up](https://api.ai/).
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/apiai-create-agent.png" width="700">
+<img src="http://www.girliemac.com/assets/images/articles/2017/01/apiai-create-agent.jpg" width="700">
 
 After doing so, go to the tab "Export & Import" and hit "IMPORT FROM ZIP" button and [download the zip configuration](https://drive.google.com/open?id=0B7hzSdAUtDKCRjRtRHFkWVUwcHM).
 
-[<img src="/assets/img/blog/2017-10-28-Messanger-Chatbot/apiai_import.png" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-10-28-Messanger-Chatbot/apiai_import.png "import configuration in API.ai")
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/apiai_import.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/apiai_import.jpg "import configuration in API.ai")
 
 Now, You need your API.ai API key and API secret to use the service with your bot. From the menu, click the “Config” icon to get your API key "Client access token" and copy it.
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/apiai-apikey.png" width="700">
+<img src="http://www.girliemac.com/assets/images/articles/2017/01/apiai-apikey.jpg" width="700">
 
 Go to **Main_App (API.AI)/workspace/server/service.js** and set the **Client access token** key in the 5th line.
 
@@ -108,7 +108,7 @@ Password : chatfuelchatfuel
 ```
 Second, open [ChatFuel's app](https://chatfuel.com/) and hit "GET STARTED FOR FREE" or "LOG IN" to connect automatically with the running facebook account.
 
-[<img src="/assets/img/blog/2017-10-28-Messanger-Chatbot/chatfuel_home_page.png" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-10-28-Messanger-Chatbot/chatfuel_home_page.png)
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/chatfuel_home_page.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/chatfuel_home_page.jpg)
 
 
 Once you're in, reset the webhook to the one you have generated by **ngrok** (https://47ba4dd4.ngrok.io in our case).
@@ -117,7 +117,7 @@ Edit all the folowing blocs : **all_profs** - **profs_plus_ues** - **all_ues** -
 
 NB: wait a couple seconds after resetting to have the changes automatically saved. (until the ✔️ in the right corner appears)
 
-[<img src="/assets/img/blog/2017-10-28-Messanger-Chatbot/InkedInkedInkedblocs_webhook_chatfuel_LI.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-10-28-Messanger-Chatbot/InkedInkedInkedblocs_webhook_chatfuel_LI.jpg)
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/InkedInkedInkedblocs_webhook_chatfuel_LI.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/InkedInkedInkedblocs_webhook_chatfuel_LI.jpg)
 
 
 At the end, let's run the microservices...

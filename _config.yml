@@ -4,10 +4,10 @@ disqus_shortname: ilyeshoudjedjeml
 share:            true
 dropcap:	   true
 quotes:
-  - "I just share what i learn..!"
+  - "Data Blog For Dummies"
   - "Challenge me if you can!"
   - "Don't talk..show me code instead!"
-sub_quote:        Don't worry, we don't like too much theory too!..learn by practice!
+sub_quote:        Don't worry, we've been all in that place one day...just keep moving forward!
 
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
