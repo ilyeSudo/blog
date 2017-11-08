@@ -5,7 +5,7 @@ title:  "ChatBot In As Microservices Architecture"
 date:   2017-11-01
 comments: true
 category:
-- Mobile
+- AI
 - Software-Architecture
 ---
 
