@@ -37,7 +37,7 @@ Now that we have talked about the common problems that may cause data heterogene
 3. Data Validity: Validity of data is determined by whether the data measure that which it is intended to measure.
 4. Data Timeliness: Data timeliness refers to the expectation of when data should be received in order for the information to be used effectively. The expectation and reality often do not align, leading to ineffective use of the data and a lack of data-driven decisions.
 
-[<img src="/assets/img/blog/2017-10-12-Data-Quality/chart.gif" style="height: 70%;width: 70%;"/>](/assets/img/blog/2017-10-12-Data-Quality/chart.gif)
+[<img src="/assets/img/blog/2017-10-20-Data-Quality/chart.gif" style="height: 70%;width: 70%;"/>](/assets/img/blog/2017-10-20-Data-Quality/chart.gif)
 
 ## Real World Example
 

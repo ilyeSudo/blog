@@ -33,36 +33,36 @@ After downloading and installing it, run it with a port number, let’s use 5000
 
 When you start ngrok, it will display a public URL of your tunnel in the terminal. We will need the URL later when setting up the Facebook app. (In the screenshot, the URL is https://47ba4dd4.ngrok.io)
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/ngrok.jpg" width="700">
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/ngrok.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/ngrok.jpg "ngrok")
 
 #### Setting Up a Facebook App
 
 Step1: You need a Facebook Page to set up your chat bot. Create one from facebook.com/pages/create. Choose a category, and select a sub category from the dropdown and fill out the required filed. Then click Get Started.
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-a-page.jpg" width="700">
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/create-a-page.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/create-a-page.jpg "Create a page")
 
 Then create an app at developers.facebook.com/quickstarts.
 Give it a name and click the button, then fill out the required info.
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app.jpg" width="700">
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/create-an-app.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/create-an-app.jpg "Create an app")
 
 Once your app is created, follow the steps to configure or skip it to your Dashboard.
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/FB-dashboard.jpg" width="700">
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/FB-dashboard.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/FB-dashboard.jpg "FB Dashboard")
 
 Click Add Product from the left menu, then choose Messenger. Click Get Started.
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app-add-product.jpg" width="700">
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/create-an-app-add-product.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/create-an-app-add-product.jpg "Create an App and add Product")
 
 At the Token Generation, (1) choose the page you just created from the dropdown menu, and it will generate a token (2) that you will need to include in the code later (IMPORTANT: save the token in somewhere, you'll need it later).
 
 Then, at the Webhooks, (3) click the Setup Webhooks button:
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app-messenger.jpg" width="700">
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/create-an-app-messenger.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/create-an-app-messenger.jpg "Create an App Messenger")
 
 In the dialog, fill out the (1) Callback URL with your ngrok URL, (2) the random string for validation, then (3) check messages.
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/create-an-app-messenger-webhook.jpg" width="700">
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/create-an-app-messenger-webhook.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/create-an-app-messenger-webhook.jpg "Create an App Messanger Webhook")
 
 Click the Verify and Save. If you get a red icon with x at the Callback URL, it means the URL is not validated- so re-run ngrok and reset the webhook url. Otherwise, you are ready to go on.
 
@@ -73,7 +73,7 @@ The project has been built in two versions : API.ai version & ChatFuel version.
 API.ai allows developers to integrate your app with the AI system with speech-to-text and natural language processing.
 Let’s get started by [sigining up](https://api.ai/).
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/apiai-create-agent.jpg" width="700">
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/apiai-create-agent.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/apiai-create-agent.jpg "Create APIai Agent")
 
 After doing so, go to the tab "Export & Import" and hit "IMPORT FROM ZIP" button and [download the zip configuration](https://drive.google.com/open?id=0B7hzSdAUtDKCRjRtRHFkWVUwcHM).
 
@@ -81,7 +81,7 @@ After doing so, go to the tab "Export & Import" and hit "IMPORT FROM ZIP" button
 
 Now, You need your API.ai API key and API secret to use the service with your bot. From the menu, click the “Config” icon to get your API key "Client access token" and copy it.
 
-<img src="http://www.girliemac.com/assets/images/articles/2017/01/apiai-apikey.jpg" width="700">
+[<img src="/assets/img/blog/2017-11-01-Messanger-Chatbot/apiai-apikey.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-11-01-Messanger-Chatbot/apiai-apikey.jpg "APIai-key")
 
 Go to **Main_App (API.AI)/workspace/server/service.js** and set the **Client access token** key in the 5th line.
 
