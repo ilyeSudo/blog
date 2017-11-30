@@ -50,7 +50,7 @@ links:
     url: /about
   - title: Resume
     external: true
-    url: https://drive.google.com/file/d/0B7hzSdAUtDKCS0lLeFJobGZZNXM/view?usp=sharing
+    url: https://drive.google.com/open?id=1lYbY6yhOoQKRD1QcY7KqHDsJtdfdwMh3
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 rouge: pygments
