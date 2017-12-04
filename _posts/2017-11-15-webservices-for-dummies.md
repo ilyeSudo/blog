@@ -2,7 +2,7 @@
 author: Ilyes
 layout: post
 title:  "Webservices For Dummies, Hands-On!"
-date:   2017-10-26
+date:   2017-11-15
 comments: true
 category:
 - Web
@@ -19,7 +19,7 @@ If it's not the case, i would rather ask you to have a look on them first. But i
 ## Description
 The scenario illustrated in the figure below is a loan application.
 
-[<img src="/assets/img/blog/2017-10-26-Webservices-Hands-On/figure1.jpg" style="height: 80%;width: 80%;"/>](/assets/img/blog/2017-10-26-Webservices-Hands-On/figure1.jpg "Figure1. Real Estate Loan Application Process")
+[<img src="/assets/img/blog/Webservices-Hands-On/figure1.jpg" style="height: 80%;width: 80%;"/>](/assets/img/blog/Webservices-Hands-On/figure1.jpg "Figure1. Real Estate Loan Application Process")
 
 And here's the [WSDL](https://www.w3.org/TR/wsdl)
 {% highlight xml %}

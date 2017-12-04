@@ -2,7 +2,7 @@
 author: Ilyes
 layout: post
 title:  "Data Quality"
-date:   2017-10-20
+date:   2017-11-10
 comments: true
 category:
 - Data
@@ -37,7 +37,7 @@ Now that we have talked about the common problems that may cause data heterogene
 3. Data Validity: Validity of data is determined by whether the data measure that which it is intended to measure.
 4. Data Timeliness: Data timeliness refers to the expectation of when data should be received in order for the information to be used effectively. The expectation and reality often do not align, leading to ineffective use of the data and a lack of data-driven decisions.
 
-[<img src="/assets/img/blog/2017-10-20-Data-Quality/chart.gif" style="height: 70%;width: 70%;"/>](/assets/img/blog/2017-10-20-Data-Quality/chart.gif)
+[<img src="/assets/img/blog/Data-Quality/chart.gif" style="height: 70%;width: 70%;"/>](/assets/img/blog/Data-Quality/chart.gif)
 
 ## Real World Example
 
@@ -55,11 +55,11 @@ And for this, we aim to calculate the total number of passengers in Transilien t
 
 Here's a simple from the datasets :
 
-[<img src="/assets/img/blog/2017-10-20-Data-Quality/image3.jpg" style="height: 50%;width: 50%;"/>](/assets/img/blog/2017-10-20-Data-Quality/image3.jpg "Figure1. Communes of the Ile-de-France Region")
+[<img src="/assets/img/blog/Data-Quality/image3.jpg" style="height: 50%;width: 50%;"/>](/assets/img/blog/Data-Quality/image3.jpg "Figure1. Communes of the Ile-de-France Region")
 
-[<img src="/assets/img/blog/2017-10-20-Data-Quality/image1.jpg" style="height: 80%;width: 80%;"/>](/assets/img/blog/2017-10-20-Data-Quality/image1.jpg "Figure2. The counting of upbound passengers in Transilien trains in 2016")
+[<img src="/assets/img/blog/Data-Quality/image1.jpg" style="height: 80%;width: 80%;"/>](/assets/img/blog/Data-Quality/image1.jpg "Figure2. The counting of upbound passengers in Transilien trains in 2016")
 
-[<img src="/assets/img/blog/2017-10-20-Data-Quality/image2.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/2017-10-20-Data-Quality/image2.jpg "Figure3. Rail stations of all types, whether or not operated")
+[<img src="/assets/img/blog/Data-Quality/image2.jpg" style="height: 100%;width: 100%;"/>](/assets/img/blog/Data-Quality/image2.jpg "Figure3. Rail stations of all types, whether or not operated")
 
 ## Identifying problems
 For a very simple case, say that we have this dataset in one data form (Relational Tables) and we want to join them in this way (*not using the right syntax*)
