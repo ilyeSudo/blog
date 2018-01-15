@@ -2,7 +2,7 @@
 author: Ilyes
 layout: post
 title:  "Data Quality"
-date:   {{ site.time | date: '%y' }}
+date:   2017-11-10
 comments: true
 category:
 - Data
