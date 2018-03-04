@@ -12,10 +12,11 @@ tags: [Ilyes, Houdjedje, rubberDuck]
             <span class="notepad-post-meta">
                 <time datetime="{{ post.date | date_to_xmlschema }}">
                     <span class="day">
-                        {{ post.date | date: "%d" }}
+												{{ site.time | date: "%d" }}
                     </span>
                     <span class="month-year">
-                        {{ post.date | date: "%B %Y" }}
+                        
+												{{ site.time | date: "%B %Y" }}
                     </span>
                 </time>
             </span>
